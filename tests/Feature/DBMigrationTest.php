@@ -14,8 +14,9 @@ class ExampleTestDB extends TestCase
      */
     public function test_example_database()
     {
-        $this->assertDatabaseHas('users', [
-            'name' => 'jean'
+        $response = $this->get('/');
+
+        $response->assertStatus(200);
         ]);
     }
 }
