@@ -18,4 +18,5 @@ class ExampleTestDB extends TestCase
             'name' => 'jean'
         ]);
     }
+    
 }
