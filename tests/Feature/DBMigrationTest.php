@@ -17,6 +17,5 @@ class ExampleTestDB extends TestCase
         $this->assertDatabaseHas('users', [
             'name' => 'jean'
         ]);
-    }
-    
+    } 
 }
